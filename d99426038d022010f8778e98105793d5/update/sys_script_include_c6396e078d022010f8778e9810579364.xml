@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_empapp.sitest</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>sitest</name>
+        <script><![CDATA[var sitest = Class.create();
+sitest.prototype = {
+    initialize: function() {
+    },
+	
+	sum: function() {
+		var a = 10;
+		var b = 30;
+		var c = a+b;
+		gs.addInfoMessage("added two numbers");
+	},
+
+    type: 'sitest'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-05 09:32:11</sys_created_on>
+        <sys_id>c6396e078d022010f8778e9810579364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sitest</sys_name>
+        <sys_package display_value="EmpApp" source="x_snc_empapp">d99426038d022010f8778e98105793d5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="EmpApp">d99426038d022010f8778e98105793d5</sys_scope>
+        <sys_update_name>sys_script_include_c6396e078d022010f8778e9810579364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-05 09:32:11</sys_updated_on>
+    </sys_script_include>
+</record_update>
