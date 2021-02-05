@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="empaddress" label="EmpAddress" language="en" table="x_snc_empapp_empinfo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>empaddress</element>
+            <help/>
+            <hint/>
+            <label>EmpAddress</label>
+            <language>en</language>
+            <name>x_snc_empapp_empinfo</name>
+            <plural>EmpAddress</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-05 09:08:38</sys_created_on>
+            <sys_id>e6e422838d022010f8778e98105793e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>EmpAddress</sys_name>
+            <sys_package display_value="EmpApp" source="x_snc_empapp">d99426038d022010f8778e98105793d5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EmpApp">d99426038d022010f8778e98105793d5</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_empapp_empinfo_empaddress_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-05 09:08:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
